@@ -1,0 +1,16 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wlm-world-generation-runtime"
+version = "1.0.0"
+description = "Runtime skeleton for WLM structural world generation."
+authors = [{ name = "Wujie Gu" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/gavingu2255-ai/WLM-World-Generation-Runtime"
